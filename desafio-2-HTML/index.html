@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags HTML</title>
+</head>
+
+<body>
+    <h1>HTML</h1>
+    <hr>
+    <nav id="menu">
+        <ol>
+            <li><a href="#tags-html">Tags HTML</a></li>
+            <li><a href="#o que é?">O que são tags?</a></li>
+            <li><a href="#formatacao">Tags de formatação</a></li>
+            <li><a href="#exemplos">Exemplos práticos</a></li>
+            <li><a href="#observacoes">Observações</a></li>
+            <li><a href="#referencias">Referências</a></li>
+        </ol>
+    </nav>
+    <hr>
+    <h2 id="tags-html">Tags HTML</h2>
+    <a href="#menu"><small>(Voltar)</small></a>
+    <p>
+        <abbr title="Linguagem de Marcação de Hipertexto">HTML</abbr> é a linguagem básica que usamos para criar páginas
+        da web. Ela é formada por <strong>tags</strong>, que
+        funcionam como blocos de construção. Cada tag tem um papel específico, como definir títulos, parágrafos, listas
+        ou links. Algumas são de abertura e fechamento, enquanto outras são auto-fechadas. Usando essas tags da forma
+        certa, consigo estruturar o conteúdo da minha página de maneira clara e organizada — e até deixá-lo mais bonito
+        e interessante de ler.
+    </p>
+    <blockquote cite="https://developer.mozilla.org">
+        "HTML é a espinha dorsal de todas as páginas da web."
+    </blockquote>
+
+
+    <h3 id="o que é?">O que são tags?</h3>
+    <a href="#menu"><small>(Voltar)</small></a>
+    <p>Tags são como comandos que a gente usa no HTML para dizer ao navegador o que cada parte do conteúdo significa ou
+        como ela deve aparecer na página. É como se cada tag fosse uma caixinha que envolve o conteúdo e diz: "ei, isso
+        aqui é um título", ou "isso aqui é um parágrafo", ou ainda "isso é um link, clique aqui!".</p>
+    <p>Então, basicamente, as tags são a forma que o HTML usa para estruturar e organizar tudo o que aparece em uma
+        página.</p>
+
+    <h4 id="formatacao">Tags de formatação</h4>
+    <a href="#menu"><small>(Voltar)</small></a>
+    <p>As tags de formatação são aquelas que usamos para mudar a aparência do texto dentro do HTML. Elas não mudam a
+        estrutura da página, mas servem para destacar partes específicas, dar ênfase ou deixar a leitura mais visual e
+        organizada.</p>
+    <p>Por exemplo, se eu quiser deixar algo em <strong>negrito</strong>, uso a tag <code>&lt;strong&gt;</code>, e para
+        deixar em <i>itálico</i>, uso a <code>&lt;i&gt;</code>. Tem também a <code>&lt;u&gt;</code>, que
+        <u>sublinha</u>, e a <code>&lt;mark&gt;</code>, que <mark>marca o texto</mark> como se fosse um marca-texto.
+    </p>
+    <p>Elas são úteis quando eu quero chamar atenção para uma palavra importante, fazer uma observação discreta com a
+        tag <code>&lt;small&gt;</code>, ou mostrar um trecho de código com <code>&lt;code&gt;</code>. A ideia é que o
+        conteúdo continue sendo o mesmo, mas com um toque visual que faz diferença na experiência de quem lê.</p>
+
+    <h5 id="exemplos">Exemplos práticos</h5>
+    <a href="#menu"><small>(Voltar)</small></a>
+    <p>Tags como <mark>&lt;strong&gt;</mark> e <mark>&lt;em&gt;</mark> ajudam na ênfase.</p>
+    <p><small>&lt;Small&gt; deixa as letras miúdas para pequenas observações, por exemplo.</small></p>
+    <p><u><strong>Texto subscrito (embaixo)</strong></u></p>
+    <p>Exemplo:</p>
+    <ul>
+        <li>Fórmula da água: H<sub>2</sub>O</li>
+    </ul>
+    </p>
+    <u>
+        <p><strong>Texto sobrescrito (em cima)</strong></p>
+    </u>
+    <p>Exemplo:</p>
+    <ul>
+        <li>
+            <p>Área = lado<sup>2</sup></p>
+        </li>
+    </ul>
+    <p><u><strong>Tag <code>&lt;Font&gt;</code></strong></u></p>
+    <p>Essa tag é considerada obsoleta no HTML5. O ideal é usar CSS para alterar fontes, tamanhos e cores, mas em
+        projetos simples, ainda pode ser usada com cuidado.</p>
+    <ul>
+        <li>
+            <p>O HTML é <font color="red" size="4">simples</font> e poderoso.</p>
+
+        </li>
+    </ul>
+    <p><u><strong>Tag <code>&lt;Del&gt;</code></strong></u></p>
+    <p>Quando quero mostrar algo que foi "riscado", como se estivesse corrigindo um erro ou fazendo uma edição visível.
+        Fica ótimo em explicações ou exemplos.</p>
+    <ul>
+        <li>
+            <p>Antes eu usava <del>table para tudo</del>, mas agora aprendi a usar <strong>CSS Flexbox</strong>.</p>
+        </li>
+    </ul>
+    <p><u><strong>Tag <code>&lt;Abbr&gt;</code></strong></u></p>
+    <p>Quando uso uma sigla ou abreviação no texto, posso colocar o significado completo com a tag &lt;abbr&gt;. Assim,
+        se alguém passar o mouse, aparece a explicação.</p>
+    <ul>
+        <li>
+            <p>Eu aprendi HTML com ajuda do <abbr title="Mozilla Developer Network">MDN</abbr>.</p>
+        </li>
+    </ul>
+
+    <h6 id="observacoes">Observações</h6>
+    <a href="#menu"><small>(Voltar)</small></a>
+    <p>Aprender e praticar o uso das tags HTML nos ajuda a entender melhor como uma página da web funciona por trás dos
+        bastidores. As tags são simples, mas poderosas, e com o tempo a gente vai pegando o jeito de usar cada uma com
+        mais naturalidade.</p>
+    <p><strong>Uma dica importante:</strong> sempre que eu quiser mostrar o código como texto, preciso lembrar de usar
+        as entidades HTML, como "<u><strong><code>&amp;lt;</code></strong></u>" para <code>&lt;</code> e
+        "<u><strong><code>&amp;gt;</code></strong></u>" para <code>&gt;</code>. Isso evita que o navegador interprete a
+        tag e ajuda quem está lendo a visualizar o código direitinho.</p>
+    <p>HTML é uma base essencial, e quanto mais se pratica, mais confiante ficamos na criação das nossas próprias
+        páginas.</p>
+
+    <h2 id="referencias">Referências</h2>
+    <a href="#menu"><small>(Voltar)</small></a>
+    <ol>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web Docs</a></li>
+        <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools</a></li>
+        <li><a href=" https://www.w3.org/TR/html52/" target="_blank">W3C HTML5</a></li>
+    </ol>
+
+</body>
+
+</html>
